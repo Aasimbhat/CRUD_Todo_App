@@ -52,12 +52,11 @@ class _AddTodoPageState extends State<AddTodoPage> {
             child: TextField(
               controller: descriptionController,
               decoration: InputDecoration(
-                hintText: "Description",
-                 hintStyle: TextStyle(
+                  hintText: "Description",
+                  hintStyle: TextStyle(
                       color: Colors.white,
                       fontWeight: FontWeight.bold,
-                      fontSize: 20)
-              ),
+                      fontSize: 20)),
               keyboardType: TextInputType.multiline,
               minLines: 5,
               maxLines: 8,
@@ -67,7 +66,7 @@ class _AddTodoPageState extends State<AddTodoPage> {
             height: 20,
           ),
           InkWell(
-            onTap: (){
+            onTap: () {
               submitData();
             },
             child: Container(
@@ -76,20 +75,20 @@ class _AddTodoPageState extends State<AddTodoPage> {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
                 color: Color(0xFF192c49),
-                
               ),
               child: Center(
-                child: Text("Submit",
-                style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 20),
+                child: Text(
+                  "Submit",
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20),
                 ),
               ),
             ),
           ),
           // ElevatedButton(
-            
+
           //     onPressed: () {
           //       submitData();
           //     },

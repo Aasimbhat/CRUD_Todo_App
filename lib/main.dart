@@ -16,8 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
-      home:TodoList() ,
+      home: TodoList(),
     );
   }
 }
-
